@@ -1,8 +1,12 @@
 h1{
-    color:aqua
+    border-style:solid;
+    color:#f00;
 }
 .header{
   background-color: rgb(164, 231, 231);
+  border-style:ridge ;
+  border-color:#ad2b2b;
+  padding-left: 600px;
   display:flex;
   justify-content:space-between ;
 }
@@ -15,6 +19,11 @@ h1{
  display:flex;
   flex-wrap:wrap;
   justify-content:space-evenly;
+ 
+}
+.item{
+    border-style: dotted;
+    border-color:#3b00ff;
 }
 .footer{
     display:flex;
@@ -22,4 +31,7 @@ h1{
 }
 p,h2{
     text-align:center ;
+}
+body{
+background-color:#FFEFE5;
 }
